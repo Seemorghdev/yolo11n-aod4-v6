@@ -1,0 +1,10 @@
+{
+  "artifact": "best.pt",
+  "bytes": 5475418,
+  "sha256": "2ebf2e1f5a36c8df0cc44664c35596aecbd25f762bed9f9edc25ae1bb08eae5b",
+  "packaged_date": "2026-10-22",
+  "checkpoint_modified": false,
+  "verification": "ZIP metadata and pickle opcode inspection only; no unpickling or execution",
+  "notebooks_included": true,
+  "notebook_status": "Sanitized edited copies; original raw outputs excluded; evaluation draft unexecuted in retained record"
+}
