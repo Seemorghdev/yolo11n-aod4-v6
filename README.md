@@ -22,6 +22,10 @@ From the repository root, run `cd release && shasum -a 256 -c SHA256SUMS` on mac
 
 The reviewed notebook records **mAP50 0.96518** and **mAP50–95 0.66663** on **4,514 validation images** with four-class aggregate results. These figures are historical records, **not** independently reproduced results or drone-only precision, recall, test performance, field reliability, or mobile inference verification.
 
+## One public rerun (added 27 October 2026)
+
+The Hugging Face repository now also has [`reproduce/`](https://huggingface.co/Seemorgh/yolo11n-aod4-v6/tree/8d8f622270dffef4a1529443b3ec781935fb4c7c/reproduce): one fixed-protocol run of `best.pt` on one public field image, with its script, receipt, environment list and input. Same image, different classification: the whole frame resized to 640 px gives bird 0.14, and full-resolution 640 px tiles give airplane 0.42, both boxed on the object. Neither pass says "drone", and it's one chosen image, not an accuracy result. The run isn't mirrored here; `release/` stays the reviewed 22 October snapshot.
+
 ## Sources, attribution and caveats
 
 - **Canonical model release:** [Hugging Face — Seemorgh/yolo11n-aod4-v6](https://huggingface.co/Seemorgh/yolo11n-aod4-v6)
@@ -31,4 +35,4 @@ The reviewed notebook records **mAP50 0.96518** and **mAP50–95 0.66663** on **
 
 The model release preserves the checkpoint's **AGPL-3.0** designation; the dataset's **CC BY 4.0** declaration is separate. The license notices and historical source review do not independently certify redistribution compliance, original training provenance, exact checkpoint-to-Core-ML equivalence, or on-device inference. The original application remains private.
 
-This GitHub mirror preserves the reviewed public Hugging Face release without importing any Hugging Face repository history. No new experiments or evaluations are implied.
+This GitHub mirror preserves the reviewed public Hugging Face release without importing any Hugging Face repository history. Apart from the Hugging Face `reproduce/` run above, no new experiments or evaluations are implied.
