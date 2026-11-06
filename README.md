@@ -1,5 +1,7 @@
 # YOLO11n AOD4 v6 — airborne-object detector
 
+**Main copy:** [Hugging Face — Seemorgh/yolo11n-aod4-v6](https://huggingface.co/Seemorgh/yolo11n-aod4-v6). This repository is the GitHub release mirror.
+
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-model%20card-ffcc4d)](https://huggingface.co/Seemorgh/yolo11n-aod4-v6)
 
 A **reviewed archival release** of a recovered Ultralytics YOLO11n checkpoint for four airborne-object classes: **airplane, bird, drone, and helicopter**. The checkpoint, original model card, license text, provenance notes, and sanitized notebooks are mirrored under [`release/`](release/).
