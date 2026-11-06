@@ -1,4 +1,6 @@
-# YOLO11n AOD4 v6 — airborne-object detector
+# Main model copy: [Hugging Face — Seemorgh/yolo11n-aod4-v6](https://huggingface.co/Seemorgh/yolo11n-aod4-v6)
+
+## YOLO11n AOD4 v6 — airborne-object detector
 
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-model%20card-ffcc4d)](https://huggingface.co/Seemorgh/yolo11n-aod4-v6)
 
